@@ -637,9 +637,9 @@ section {
 }
 
 .kontak-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  display: flex;
+  justify-content: center;   
+  align-items: center; 
   margin-bottom: 50px;
 }
 
@@ -1036,3 +1036,4 @@ footer {
 a, button, .product, .gallery img, nav a, .social-links a {
   transition: var(--transition);
 }
+
